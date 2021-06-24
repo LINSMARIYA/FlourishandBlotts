@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flourish and Blotts</title>
+        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/styles.css">
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.js"></script>
+    </head>
+    <body>
+
+        <!-- Implement the Florish and Blotts exercises here -->
+
+        <nav
+            class="navbar fixed-top navbar-expand-lg navbar-light"
+            style="background-color: #DADADA">
+            <div class="row container-fluid ">
+                <a class="navbar-brand" href="#">Flourish and Blotts</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls=" navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#About" aria-current="page">About Us
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Trending
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Our collection
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav navbar-right">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Verified user?Login
+                                <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div>
+            <section class="About">
+                <div class="main container">
+                    <h1>Flourish and Blotts</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+        <br>
+        <div class="container">
+            <div class="content row ">
+
+                <div class="col-lg-8 col-md-7 col-sm-5 ">
+                    <table>
+                        <h3>Popular Trending Books:</h3>
+                        <tr>
+                            <th>Book Cover</th>
+                            <th>Book Title</th>
+                            <th>Author</th>
+                            <th>Cost</th>
+                        </tr>
+                        <tr>
+                            <td><img
+                                class="book"
+                                src="images/book1.jpg"
+                                alt="Book 1 Cover"
+                                style="border-radius: 10px;"></td>
+                            <td>The Lies and the Life of Albus Dumbledore</td>
+                            <td>Rita Skeeter</td>
+                            <td>10
+                                <span>Galleons</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/book2.jpg" alt="Book 2 Cover" style="border-radius: 50px"></td>
+                            <td>Holidays with Hags</td>
+                            <td>Glideroy Lockhart</td>
+                            <td> 8 
+                                <span>Galleons</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/book3.jpg" alt="Book 3 Cover"></td>
+                            <td>The monster book of monsters</td>
+                            <td>Edwarus Lima</td>
+                            <td>15
+                                <span>Galleons</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                </div>
+
+                <div
+                    class="col-lg-3 offset-lg-1 col-md-4 offset-md-1 col-sm-5 "
+                    style="background-color:#D6D6D6 ; border-radius: 5px;color: #605F5F">
+                    <p class="form-text"><h4>Register</h4></p>
+                    <div class="form-style10 ">
+                        <form>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Enter email"
+                                    required="*">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="exampleInputPassword1"
+                                    placeholder="Password"
+                                    required="*">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword2">Confirm password</label>
+                                <input
+                                    type="password"
+                                    class="form-control"
+                                    id="exampleInputPassword2"
+                                    placeholder="Reenter password"
+                                    required="*">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" required="*">
+                                <label class="form-check-label" for="exampleCheck1">I agree to the<a href="#">
+                                        terms & policies.</a>
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </body>
+</html>
